@@ -11,24 +11,20 @@ header {
   background-color: #ffdbaa;
   width: 100%;
   color: #553100;
-  border: 1mm ridge rgba(170, 50, 220, .6);
+  display: inline-flex;
+  border-bottom: thin solid black;
 }
 
 header h1 {
   width: 45%;
-  border: 1mm ridge yellow;
+  margin: 10px 5% 10px 2%;
 }
 
 .menu {
-  width: 45%;
-    border: 1mm ridge green;
-}
-
-.left {
-  float: left;
-}
-.right {
-  float: right;
+  width: 40%;
+  margin: 10px 2% 10px 6%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main {
@@ -50,8 +46,7 @@ button {
 .menu button {
   width: 75px;
   padding: 10px;
-  margin: 5px auto;
-  float: right;
+  border: none;
 }
 
 .card {
@@ -60,15 +55,17 @@ button {
   text-align: center;
   padding: 10px;
   margin: 20px;
-  box-shadow: 0 0 15px -3px black;
+  box-shadow: 0 0 11px -3px black;
 }
 
 .card button {
-  width: 95%;
+  width: 100%;
+  font-size: 0.9em;
 }
 
 .smallCard {
-  width: 18%;
+  width: 25%;
+  min-height: 150px;
 }
 
 .largeCard {
@@ -76,8 +73,9 @@ button {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 0.98em;
 }
 p {
   text-align: left;
+  font-size: 0.9em;
 }
