@@ -3,18 +3,35 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
-#main {
-  background-color: #d4a76a;
+* {
+  font-family: sans-serif;
 }
 
 header {
   background-color: #ffdbaa;
+  width: 100%;
+  color: #553100;
 }
 
-.menu * {
-  margin: 100px;
-  padding: 20px;
+header h1 {
+  width: 50%;
+}
+
+.menu {
+  width: 50%;
+  margin: ;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.main {
+  background-color: #d4a76a;
+  margin: 0 auto;
 }
 
 button {
@@ -25,4 +42,38 @@ button {
   border-color: black;
   border-style: solid;
   border-width: thin;
+  padding: 10px 20px;
+}
+
+.menu button {
+  width: 75px;
+  padding: 10px;
+}
+
+.card {
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 0 15px -3px black;
+}
+
+.card button {
+  width: 95%;
+}
+
+.smallCard {
+  width: 18%;
+}
+
+.largeCard {
+  width: 90%;
+}
+
+h3 {
+  font-size: ;
+}
+p {
+  text-align: left;
 }
