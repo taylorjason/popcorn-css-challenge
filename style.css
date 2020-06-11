@@ -13,11 +13,13 @@ header {
   color: #553100;
   display: inline-flex;
   border-bottom: thin solid black;
+  /* height: 80px; */
 }
 
 header h1 {
   width: 45%;
   margin: 10px 5% 10px 2%;
+  line-height: 60px;
 }
 
 .menu {
@@ -25,6 +27,7 @@ header h1 {
   margin: 10px 2% 10px 6%;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .main {
@@ -45,8 +48,11 @@ button {
 
 .menu button {
   width: 75px;
-  padding: 10px;
+  height: 35px;
+  padding: 0px;
   border: none;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 .card {
